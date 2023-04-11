@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  direction: rtl;
+  font-family: 'vazir' !important;
+  height: 100vh;
+}
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+}
+#one{
+  background: #b71c1c;
+}
+#two{
+  background: #E65100;
+}
+#three{
+  background: #33691E;
+}
+#four{
+  background: #0D47A1;
+}
+.to-top{
+  position: fixed;
+  right: 25px;
+  bottom: 15px;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+.to-top.active{
+  opacity: 1;
+  bottom: 40px;
+}
+.to-top svg{
+  font-size: 30px;
+}
+
